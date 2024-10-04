@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "irbtechcvision"
+version = "0.1.0"
+description = ""
+authors = ["irineub <irineugmestre@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.31.0"
+fastapi = "^0.115.0"
+python-decouple = "^3.8"
+opencv-python = "^4.10.0.84"
+dlib = "^19.24.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
